@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: white;/*fondo*/
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;    
+}
+
+.contenedor-logo-plexus{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contenedor-contador{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plexus-logo{
+  height: 100px;
+}
+
+.titulo-contador{
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: Lato, sans-serif;
+  display: flex;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #04364B;
+
+}
